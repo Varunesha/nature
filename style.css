@@ -669,6 +669,9 @@ section {
         width: 410px;
         padding: 0px 0 0 50px;
     }
+       .quality-element03-inner button{
+        margin-top: -12px;
+    }
     .naturals-inner {
         background-size: 380px 400px;
         background-position: -20px 50px;
