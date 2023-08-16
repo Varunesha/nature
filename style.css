@@ -664,7 +664,7 @@ section {
   }
 
   /*  */
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1000px){
     .naturals-1-widget {
         width: 410px;
         padding: 0px 0 0 50px;
