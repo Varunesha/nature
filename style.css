@@ -193,7 +193,7 @@ section {
 }
 .quality-element03-inner > p:nth-child(2) {
     padding: 10px 0;
-    font-size: 36px;
+    font-size: 30px;
     font-family: "Inter", sans-serif;
 }
 .quality-element03-inner span {
@@ -340,8 +340,8 @@ section {
     font-family: "Inter", sans-serif;
 }
 .quality-element07-inner > p:nth-child(2) {
-    padding: 10px 0;
-    font-size: 36px;
+    padding: 2px 0;
+    font-size: 28px;
     color: #502f8f;
     font-family: "Times New Roman", Times, serif;
 }
@@ -397,7 +397,7 @@ section {
 }
 
 .quality-element10-inner > p:nth-child(2) {
-    font-size: 36px;
+    font-size: 33px;
     color: #502f8f;
     font-family: "Times New Roman", Times, serif;
 }
@@ -454,24 +454,44 @@ section {
     font-family: "Times New Roman", Times, serif;
 }
 
+.stylist-img {
+    object-fit: cover;
+    width: 100%;
+}
 .stylist-element02-inner:hover{
  transform: scale(0.95);
 }
 .stylist-element02 {
-    width: 25%;
+     width: 25%; 
     padding-right: 2%;
 }
 .stylist-element03 {
-    width: 25%;
+     width: 25%; 
     padding-right: 2%;
 }
 .stylist-element04 {
-    width: 25%;
+     width: 25%; 
     padding-right: 2%;
 }
 .stylist-element05 {
-    width: 25%;
+     width: 25%; 
     padding-right: 2%;
+}
+.stylist-element02-inner {
+    width: 100%;
+    overflow: hidden;
+}
+.stylist-element03-inner {
+    width: 100%;
+    overflow: hidden;
+}
+.stylist-element04-inner {
+    width: 100%;
+    overflow: hidden;
+}
+.stylist-element05-inner {
+    width: 100%;
+    overflow: hidden;
 }
 /*  */
 
@@ -729,12 +749,15 @@ section {
     .cols {
         width: 100%;
     }
+    .quality-element03-inner button {
+        margin: 10px 0 10px 0;
+    }
     .quality-element03-inner {
         max-height: 500px;
     }
-    .quality-element03-inner button{
+    /* .quality-element03-inner button{
         margin-top: -12px;
-    }
+    } */
     .quality-element04 {
         width: 100%;
         margin: 0;
@@ -747,7 +770,7 @@ section {
     }
     
     .quality-element04-inner p:nth-child(2) {
-        font-size: 28px;
+        font-size: 22px;
         padding: 10px 0 0 0;
         letter-spacing: 1px;
         font-family: "Times New Roman", Times, serif;
@@ -762,8 +785,13 @@ section {
         bottom: 0;
         right: -7%;
     }
+    .quality-element04-inner img {
+       
+        left: 20%;
+        width: 100%;
+    }
     .quality-element04-inner button {
-        margin: 0px 0;
+        margin: 15px 0;
     }
     .quality-element05-inner {
         padding: 0;
